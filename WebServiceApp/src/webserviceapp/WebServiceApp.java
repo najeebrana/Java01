@@ -10,7 +10,7 @@ import com.najeeb.webservices.HelloService_Service;
 
 /**
  *
- * @author Naila
+ * @author Najeeb
  */
 public class WebServiceApp {
 
@@ -20,7 +20,7 @@ public class WebServiceApp {
     public static void main(String[] args) {
         HelloService_Service service = new HelloService_Service();
         final HelloService proxy = service.getHelloServicePort();
-        System.out.println(proxy.hello("Najeeb Rana !!!!"));
+        System.out.println(proxy.hello("Hello World !!!!"));
     }
     
 }
